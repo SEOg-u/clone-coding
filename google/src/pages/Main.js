@@ -113,7 +113,7 @@ const Main = () => {
           </Buttons_div>
         </CoverButtons_div>
 
-        <Footer_div>
+        {/* <Footer_div>
           <Korea_div>
             <SouthKorea_p>대한민국</SouthKorea_p>
           </Korea_div>
@@ -144,7 +144,7 @@ const Main = () => {
               <Setting_a to="/">설정</Setting_a>
             </BlahRights_div>
           </BlahBlah_div>
-        </Footer_div>
+        </Footer_div> */}
       </Body_div>
     </>
   );
@@ -404,86 +404,86 @@ const Lucky_A = styled.a`
   }
 `;
 
-const Footer_div = styled.div`
-  margin-top: 250px;
-  width: 100%;
-  height: 100px;
-  background-color: #f2f2f2;
-`;
-const Korea_div = styled.div`
-  height: 51px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-width: 0 0 1px 0;
-  border-color: #dadce0;
-  border-style: solid;
-`;
-const SouthKorea_p = styled.p`
-  margin-left: 2%;
-  color: #70757a;
-`;
+// const Footer_div = styled.div`
+//   margin-top: 250px;
+//   width: 100%;
+//   height: 100px;
+//   background-color: #f2f2f2;
+// `;
+// const Korea_div = styled.div`
+//   height: 51px;
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
+//   border-width: 0 0 1px 0;
+//   border-color: #dadce0;
+//   border-style: solid;
+// `;
+// const SouthKorea_p = styled.p`
+//   margin-left: 2%;
+//   color: #70757a;
+// `;
 
-const BlahBlah_div = styled.div`
-  height: 49px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-const BlahLefts_div = styled.div`
-  margin-left: 2.3%;
-  width: 220px;
-  display: flex;
-  justify-content: space-between;
-`;
-const Ad_A = styled.a`
-  ${blahStyle};
+// const BlahBlah_div = styled.div`
+//   height: 49px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// `;
+// const BlahLefts_div = styled.div`
+//   margin-left: 2.3%;
+//   width: 220px;
+//   display: flex;
+//   justify-content: space-between;
+// `;
+// const Ad_A = styled.a`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
-const Business_A = styled.a`
-  ${blahStyle};
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
+// const Business_A = styled.a`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
-const Principle_A = styled.a`
-  ${blahStyle};
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
+// const Principle_A = styled.a`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
 
-const BlahRights_div = styled.div`
-  margin-right: 2.3%;
-  width: 230px;
-  display: flex;
-  justify-content: space-between;
-`;
-const Individual_A = styled.a`
-  ${blahStyle};
+// const BlahRights_div = styled.div`
+//   margin-right: 2.3%;
+//   width: 230px;
+//   display: flex;
+//   justify-content: space-between;
+// `;
+// const Individual_A = styled.a`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
-const Promise_A = styled.a`
-  ${blahStyle};
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
+// const Promise_A = styled.a`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
-const Setting_a = styled(Link)`
-  ${blahStyle};
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
+// const Setting_a = styled(Link)`
+//   ${blahStyle};
 
-  &:hover {
-    ${hoverBlahStyle};
-  }
-`;
+//   &:hover {
+//     ${hoverBlahStyle};
+//   }
+// `;
 
 export default Main;
