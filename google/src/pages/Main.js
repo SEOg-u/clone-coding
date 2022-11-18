@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import {
   dots,
@@ -23,13 +23,15 @@ const Main = () => {
   // input value가 바뀔 때마다 전달
   const change = (e) => {
     setInput(e.target.value);
-
-    showX();
+    showX(e);
   };
 
-  const showX = () => {
-    if (input !== "") {
+  // x 보이게 하는지 판단
+  const showX = (e) => {
+    if (e.target.value !== "") {
       check = true;
+    } else if (e.target.value === "") {
+      check = false;
     }
   };
 
@@ -179,16 +181,16 @@ const hoverUnderButtonStyle = {
   boxShadow: "0px 0.5px 2px 0.5px rgba(0, 0, 0, 0.25)",
 };
 
-const blahStyle = {
-  fontSize: "14px",
-  color: "#70757a",
-  textDecoration: "none",
-};
+// const blahStyle = {
+//   fontSize: "14px",
+//   color: "#70757a",
+//   textDecoration: "none",
+// };
 
-const hoverBlahStyle = {
-  textDecoration: "underline",
-  textDecorationColor: "#70757a",
-};
+// const hoverBlahStyle = {
+//   textDecoration: "underline",
+//   textDecorationColor: "#70757a",
+// };
 
 // styled-components
 const Header_div = styled.div`
